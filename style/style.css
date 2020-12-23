@@ -1,0 +1,264 @@
+body{
+    margin: 10px;
+}
+
+
+
+
+
+.img1{
+    width: 60%;
+    height: 70%;
+}
+.helo{
+    border: 2px solid rgb(119, 16, 247);
+    border-radius: 50px;
+    padding:  5px 10px 5px 10px;
+    font-weight: bolder;
+}
+a{
+    color: black;
+}
+.center{
+    text-align: center;
+     
+}
+.r-margins{
+    padding-top: 10%;
+   
+}
+.img2{
+    margin-top: 2%;
+  width: 40%;
+  height: 80%;
+  border-radius: 25%;
+  
+}
+.img2:hover{
+    background:transparent url("../image/WhatsApp\ Image\ 2020-12-11\ at\ 10.33.11\ AM.jpeg") no-repeat 0 0;
+}
+.color{
+    background-color: rgb(119, 16, 247);
+}
+.intro{
+    margin-top: 4%;
+    color: white;
+    padding: 8%;
+}
+.color2{
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 5%;
+    border-radius: 3%;
+    padding: 5%;
+
+}
+.color3{
+    color: black;
+}
+.color4{
+    color: rgb(119, 16, 247);
+}
+.align{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.pading{
+
+    padding: 5%;
+}
+.m-btm{
+    padding-bottom: 8%;
+}
+.pading2{
+    padding: 10%;
+    border: 1px solid rgb(119, 16, 247);
+    border-radius: 4%;
+   
+   
+}
+.color5{
+    color: black;
+}
+.pading3{
+    padding: 1%;
+}
+.color6{
+    background-color: rgb(21, 28, 57);
+    border-radius: 5%;
+    
+}
+.color7{
+    color: white;
+   
+}
+.helo2{
+    border: 2px solid rgb(119, 16, 247);
+    border-radius: 30%;
+    padding: 10px;
+    font-weight: bolder;
+}
+li{
+    display: inline;
+    padding: 1%;
+    border: 1px solid white;
+    border-radius: 30%;
+    margin-left: 1%;
+}
+.intro2{
+    margin-top: 4%;
+    color: white;
+    padding: 8%;
+}
+.layout{
+    position: relative;
+    top: 150px;
+    @media screen and (max-width:800px) {
+        position:relative;
+        top: 0px;
+        
+    }
+}
+.layout2{
+    position: relative;
+    bottom: 200px;
+}
+.animation{
+    animation-name: start;
+    animation-duration: 3s;
+}
+@keyframes start{
+    from{
+        width: 30%;
+        background-color: rgb(119, 16, 247);
+    }
+    to{
+        width: 100%;
+        background-color: white;
+    }
+}
+.animation2:hover{
+    animation-name: second;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes second{
+    from{
+       background-color: rgb(119, 16, 247);
+    }
+    to{
+        background-color: rgb(21, 28, 57);
+    }
+}
+.animation3:hover{
+    animation-name: third;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes third{
+    0%{
+        background-color: rgb(21, 28, 57);
+
+    }
+    50%{
+        background-color: white;
+        color: rgb(119, 16, 247);
+    }
+    100%{
+        background-color: rgb(119, 16, 247);
+        color: white;
+    }
+}
+.animation4{
+    animation-name: forth;
+    animation-duration: 5s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes forth{
+    from{
+        background-color: rgb(119, 16, 247);
+    }
+    to{
+        background-color: rgb(21, 28, 57);
+    }
+}
+.animation5{
+    animation-name: fifth;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes fifth{
+    from{
+        background-color: rgb(21, 28, 57);
+    }
+    to{
+       
+        background-color: rgb(119, 16, 247);
+    }
+}
+.radius{
+    border-radius: 10%;
+}
+.animation6{
+    animation-name: sixth;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+
+}
+@keyframes sixth{
+    from{
+        width: 30%;
+    }
+    to{
+        width: 400%;
+    }
+} .pad{
+    padding: 10px;
+}
+.m-btm2{
+    margin-bottom: 25%;
+}
+.m-top{
+    margin-top: 5%;
+}
+.size{
+    @media screen and (max-width:800px) {
+        position: normal;
+        bottom: 0px;
+
+        margin-top:100%;
+        
+    }
+}
+.line1{
+border-bottom:1px solid black;
+
+}
+.animation7:hover{
+    padding: 2%;
+    animation-name: anime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+@keyframes anime{
+    0%{
+        color: black;
+        background-color: white;
+    }
+    35%{
+        color:white ;
+        background-color: rgb(21, 28, 57);
+    }
+    70%{
+        color: rgb(119, 16, 247);
+    }
+    100%{
+        color: rgb(21, 28, 57);
+    }
+}
